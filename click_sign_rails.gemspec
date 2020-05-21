@@ -1,7 +1,10 @@
+lib = File.expand_path("../lib", __FILE__)
+$LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
+
 Gem::Specification.new do |s|
   s.name        = 'click_sign_rails'
-  s.version     = '0.0.1'
-  s.summary     = "ClickSign WebHook and Api interface for rails"
+  s.version     = '0.0.2'
+  s.summary     = "ClickSign Api interface for rails"
   s.authors     = ["Thiago Soares de Melo"]
   s.email       = 'thiago.soaresm19@gmail.com'
   s.files       = Dir["{lib}/**/*", "MIT-LICENSE", "README.md"]

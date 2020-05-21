@@ -5,7 +5,6 @@ module ClickSign
 	require 'click_sign/document'
 	require 'click_sign/signer'
 	require 'click_sign/list'
-	require 'click_sign/webhooks/routes'
 
 
 	def self.configure(&block)
