@@ -8,6 +8,6 @@ Gem::Specification.new do |s|
   s.homepage    = 'https://github.com/teago19/click-sign-rails'
   s.license     = 'MIT'
 
-  s.add_dependency "rails", "> 6"
+  s.add_dependency "rails", "~> 6"
   s.add_dependency "rest-client", "2.1.0"
 end
